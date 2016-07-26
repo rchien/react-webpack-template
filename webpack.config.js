@@ -7,7 +7,7 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-  entry: './src/index',
+  entry: './app/index',
   output: {
     path: __dirname + '/dist',
     filename: "bundle.js"
